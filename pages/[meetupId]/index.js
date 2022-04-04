@@ -1,6 +1,7 @@
 import { MongoClient, ObjectId } from 'mongodb';
 import { Fragment } from 'react/cjs/react.production.min';
-import Head from 'next/dist/next-server/lib/head';
+import Head from 'next/head';
+
 import MeetupDetail from '../../components/meetups/MeetupDetails';
 
 function MeetupDetails(props) {

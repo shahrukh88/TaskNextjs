@@ -1,7 +1,7 @@
 
 import { useRouter } from 'next/router';
 import NewMeetupForm from '../../components/meetups/NewMeetupForm'
-import Head from 'next/dist/next-server/lib/head';
+import Head from 'next/head';
 
 function NewMeetupPage(){
 
